@@ -1,0 +1,77 @@
+				 ***** Computer Graphics *****
+				   ***** CSEG 324 *****
+				  ***** Mini Project *****
+			        ***** Topic : Fractals *****
+
+             ________AIM: To implement different types of fractals.________
+
+______________________________________________________________________________________________________
+** For detailed info on FRACTALS, refer to "document.pdf" file.
+** Working video of project has been provided - "CG_Project_Fractals.mp4".
+
+Note: OpenGL libraries (GLUT) must be installed in order to run the files.
+______________________________________________________________________________________________________
+
+                #### THE MANDELBROT SET FRACTAL ####
+
+-> Compile & Run the source file by the following commands :
+  
+ ----> root@kali:~ gcc mandelbrot.c -o mandelbrot -lglut -lGLU -lGL -lm
+ ----> root@kali:~ ./mandelbrot
+
+-> Mouse Controls:
+
+Left Click : Zoom In
+Right Click : Zoom Out
+
+__________________________________________________________________________________
+
+
+                   #### KOCH SNOWFLAKE ####
+
+-> Compile & Run the source file by the following commands :
+  
+ ----> root@kali:~ g++ main.cpp -o koch -lglut -lGLU -lGL
+ ----> root@kali:~ ./koch
+
+-> No Keyboard/Mouse Controls
+
+__________________________________________________________________________________
+
+
+                 #### FERN LEAF (IFS) ####
+
+-> Compile & Run the source file by the following commands :
+  
+ ----> root@kali:~ g++ fern.cpp -o fern -lglut -lGLU -lGL
+ ----> root@kali:~ ./fern
+
+-> No Keyboard/Mouse Controls
+
+__________________________________________________________________________________
+
+
+            ********* Authors *********
+
+    		Kumar Shivam 
+    		Abhinav Bhatt
+	
+	B.Tech CSE with spec. in IT Security and Cyber Forensics - 3rd year
+	School of Computer Science and Engineering
+	University of Petroleum and Energy Studies
+	Dehradun.
+
+
+__________________________________________________________________________________
+                      
+            ********* Mentor *********
+    
+		Pankaj Badoni
+
+	    Assistant Professor
+	    School of Computer Sc. & Engineering
+	    University of Petroleum and Energy Studies
+	    Dehradun.
+
+___________________________________________________________________________________________________
+___________________________________________________________________________________________________
